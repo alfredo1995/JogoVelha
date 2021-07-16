@@ -1,0 +1,119 @@
+*{
+    text-align: center;
+    font-family:  Helvetica, sans-serif;
+
+}
+
+
+h1{
+    font-size: 5vh;
+}
+
+
+#btn-container button{
+    border: none;
+    padding: 2vh;
+    background: rgba(0, 0, 0, 0.473);
+    margin: 10px;
+
+    cursor: pointer;
+}
+#btn-container button p{
+    display: flex;
+    color: cornsilk;
+    margin: 2vh;
+}
+#btn-container button i{
+   font-size: 3vh;
+   color: rgb(0, 0, 0);
+}
+
+#container{
+    display: flex;
+    width: 300px;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box{
+    height: 100px;
+    border: 3px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    flex: 1 1 33%;
+}
+
+#block-1,#block-2,#block-3{
+    border-top:none ;
+}
+#block-1,#block-4,#block-7{
+    border-left:none ;
+}
+#block-7,#block-8,#block-9{
+    border-bottom:none ;
+}
+#block-3,#block-6,#block-9{
+    border-right:none ;
+}
+
+.x{
+    display: inline-block;
+    font-size: 50px;
+    color: #ff0000;
+    line-height: 100px;
+}
+.o{
+    display: inline-block;
+    font-size: 45px;
+    color: #00ff0d;
+    line-height: 100px;
+}
+
+
+h3{
+    font-size: 1em;
+}
+
+.score-box{
+    margin: 10px;
+}
+
+.hide{
+    display: none !important;
+}
+
+#scoreboard-container{
+    margin: 0 auto;
+    padding: 5vh;
+    
+    font-size: 1.5em;
+}
+
+#x-scoreboard{
+    
+    color: #ff0000;
+    margin: 10px;
+}
+#o-scoreboard{
+    
+    color: #00ff0d;
+    margin: 10px;
+}
+
+#message p{
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35%;
+
+    font-size: 3em;
+    width: 50vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+
+    background: #000;
+    color: #fff;
+}

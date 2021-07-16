@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--JS-->
+    <script src="./js/script.js" defer></script>
+    <title>Hash Game</title>
+    <!--LINKS-->
+    <script src="https://kit.fontawesome.com/f3a64eafd3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <div id="btn-container">
+        <button id="2-players"><i class="fas fa-user-friends"></i><p>Jogar com amigo</p></button>
+        <button id="ai-player"><i class="fas fa-robot"></i><p>Jogar com AI</p</button>
+    </div>
+    <div id="container" class="hide">
+        <div class="box" id="block-1"></div>
+        <div class="box" id="block-2"></div>
+        <div class="box" id="block-3"></div>
+        <div class="box" id="block-4"></div>
+        <div class="box" id="block-5"></div>
+        <div class="box" id="block-6"></div>
+        <div class="box" id="block-7"></div>
+        <div class="box" id="block-8"></div>
+        <div class="box" id="block-9"></div>
+
+        <div id="scoreboard-container">
+            <h3>PLACAR:</h3>
+            <span class="score-box">
+                <span id="x-scoreboard"><i class="fas fa-times"></i></span>:
+                <span id="scoreboard-1">0</span>
+            </span>
+            <span class="score-box">
+                <span id="o-scoreboard"><i class="far fa-circle"></i></span>:
+                <span id="scoreboard-2">0</span>
+            </span>
+        </div>
+    </div>
+
+    <div class="hide">
+        <div class="x" id="x"><i class="fas fa-times"></i></div>
+        <div class="o" id="o" ><i class="far fa-circle"></i></div>
+    </div>
+
+    <div id="message"class="hide">
+        <p>aaaaaaa</p>
+    </div>
+</body>
+</html>
