@@ -18,4 +18,4 @@ Click here: 👉🏿 https://andre831.github.io/hash/ 👈🏿
 - the part in one of the spaces;
 - next will be `⭕`;
 - who aligns 3 equal elements will win;
-
+ 
